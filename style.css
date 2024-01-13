@@ -1,10 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
-
-
-/* font-family: 'Work Sans', sans-serif; */
-
-
-*{
+/* font-family: 'Work Sans', sans-serif;
+ */
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,7 +13,6 @@ body{
 .max{
     max-width: 1440px;
     margin: auto;
-    
 }
 li{
     list-style-type: none;
@@ -26,21 +22,17 @@ a{
 }
 .btn-pry{
     color: #FFF;
-text-align: center;
-font-size: 20px;
-font-weight: 600;
-border-radius: 8px;
-background: #FF900E;
-padding: 21px 24px;
-border: none;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 8px;
+    background: #FF900E;
+    padding: 21px 24px;
+    border: none;
 }
-
-
-
 .big-cont{
     width: 100%;
     display: block;
-   
     background: rgba(255, 144, 14, 0.10);
 }
 header{
@@ -49,7 +41,6 @@ header{
     justify-content: space-between;
     align-items: center;
     padding: 0 20px;
-    
 }
 .logo{
     width: 60%;
@@ -60,16 +51,13 @@ header{
 nav{
     width: 40%;
     height: 100%;
-
 }
-
 header nav ul{
     display: flex;
     justify-content: space-between;
     align-items: center;
     height: 100%;
     width: 100%;
-
 }
 header nav ul a{
     padding: 15px 16px;
@@ -77,331 +65,219 @@ header nav ul a{
     line-height: 25px;
     font-weight: 500;
     color: #424242;
-
 }
-
-
-
-
-
 .hero{
-    padding: 0 20px  0px 20px;
-    
+    padding: 0 20px 0px 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 40px;
 }
-
 .hero *{
-   
     text-align: center;
     margin-bottom: 30px;
-
 }
 .hero h2{
-    color:  #131313;
-font-size: 64px;
-font-weight: 700;
-margin-top: 50px;
+    color: #131313;
+    font-size: 64px;
+    font-weight: 700;
+    margin-top: 50px;
 }
 .hero p{
     color: #727272;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px; 
-width: 868px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    width: 868px;
 }
-
 .hero img{
     width: 100%;
     object-fit:cover;
     margin-bottom: 80px;
     margin-top: 40px;
 }
-
-
-
 .Features-container{
     min-height: 500px;
     margin-bottom: 80px;
     display: flex;
     align-items: center;
     padding: 0 20px;
+    margin-top: 80px;
 }
-
 .Features-grid{
     width: 50%;
     height: 100%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 15px;
-    /* border: 1px solid red; */
-
+   /* border: 1px solid red;
+    */
 }
 .Features-grid img{
     width: 100%;
 }
-
 .features-info{
-    /* border: 1px solid rgb(5, 157, 53); */
-
+   /* border: 1px solid rgb(5, 157, 53);
+    */
     width: 50%;
     padding: 5%;
 }
 .features-info h2{
-    color:  #727272;
-font-size: 45px;
-font-weight: 500;
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
 }
 .features-info h2 .span-1{
-    color:  #131313;
-font-weight: 700;
+    color: #131313;
+    font-weight: 700;
 }
 .features-info h2 .span-2 {
-    color:  #FF900E;
-font-weight: 700;
+    color: #FF900E;
+    font-weight: 700;
 }
 .features-info p{
-    color:  #727272;
-font-size: 16px;
-font-weight: 400;
-line-height: 26px; 
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
 }
 .features-info *{
     margin-bottom: 20px;
 }
-
-
-
-
-
 @media screen and (max-width:1200px) {
     header nav ul a{
-        
         font-size: 16px;
-        
-    
-    }
+   }
     header{
-        
         height: 80px;
-    }
+   }
     .logo{
         width: 50%;
         font-size: 35px;
-    }
+   }
     nav{
         width: 50%;
-    
-    }
-    
+   }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 @media screen and (max-width:960px) {
-
     .features-info h2{
-    font-size: 40px;
-    }
+        font-size: 40px;
+   }
     .features-info p{
-        
-    font-size: 15px;
-    line-height: 20px; 
-    }
-
-
-
-
+        font-size: 15px;
+        line-height: 20px;
+   }
 }
-
-
-
-
-
-
 @media screen and (max-width:900px) {
-    
     header{
         text-align: center;
         min-height: 130px;
         flex-direction: column;
         padding:20px 20px 0;
-        
-    }
-
+   }
     .logo{
         width: 100%;
         font-size: 30px;
         height: 60%;
-       
-    }
+   }
     nav{
         width: 100%;
         border-bottom: 1px solid rgba(0, 0, 0, 0.648);
         height: 40%;
         padding-bottom: 20px;
-    
-    }
-
-
-
+   }
     .hero h2{
         font-size: 50px;
-    }
+   }
     .hero p{
         color: #727272;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 20px; 
-    width: 80vw;
-    }
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 20px;
+        width: 80vw;
+   }
     .hero *{
         margin-bottom:20px ;
-    }
+   }
     .btn-pry{
         padding: 17px 20px;
-    }
-    
+   }
     .hero img{
-        
         margin-bottom: 40px;
-    }
-    
+   }
 }
-
 @media screen and (max-width:850px) {
-
-
-.Features-container{
-    flex-direction: column;
-    min-width: 300px;
-
-}
-.features-info{
-    width: 100%;
-    text-align: center;
-    
-
-}
-.Features-grid{
-    width: 100%;
-    grid-template-columns: repeat(4,1fr);
-    gap: 8px;
-    order: 2;
-}
-.Features-grid img{
-    width: 100%;
-}
-
-
-
-
-
-
-
-
-
-
+    .Features-container{
+        flex-direction: column;
+        min-width: 300px;
+   }
+    .features-info{
+        width: 100%;
+        text-align: center;
+   }
+    .Features-grid{
+        width: 100%;
+        grid-template-columns: repeat(4,1fr);
+        gap: 8px;
+        order: 2;
+   }
+    .Features-grid img{
+        width: 100%;
+   }
 }
 @media screen and (max-width:700px) {
-
     .hero h2{
         font-size: 40px;
         margin-top: 20px;
-    }
+   }
     .hero p{
-        
-    font-size: 14px;
-    }
-   
+        font-size: 14px;
+   }
     .btn-pry{
         padding: 15px 18px;
         font-size: 15px;
-    }
-
-
-
-
-
-
-
+   }
 }
-
 @media screen and (max-width:480px) {
-    
     header{
         min-height: 100px;
-    }
-
+   }
     .logo{
         font-size: 22px;
-    }
+   }
     nav{
         padding-bottom: 15px;
-
-    }
+   }
     header nav ul a{
         font-size: 14px;
-    }
-
-
-
-
+   }
     .hero h2{
         font-size: 30px;
-    }
+   }
     .hero p{
-        
-    font-size: 10px;
-    line-height: 16px;
-    }
-   
+        font-size: 10px;
+        line-height: 16px;
+   }
     .btn-pry{
         padding: 10px 12px;
         font-size: 15px;
-    }
-
-
-
+   }
     .Features-container{
         margin: 40px 0 40px 0;
-      padding: 0;
-      max-height: 380px;
-      min-height: 380px;
-    
-    }
-.features-info p{
-    font-size: 10px;
-    line-height: 16px;
-
-}
-.features-info h2{
-    font-size: 30px;
-
-}
-
-
-
-    
+        padding: 0;
+        max-height: 380px;
+        min-height: 380px;
+   }
+    .features-info p{
+        font-size: 10px;
+        line-height: 16px;
+   }
+    .features-info h2{
+        font-size: 30px;
+   }
 }
 @media screen and (max-width:380px) {
-    
-    
     header nav ul a{
         font-size: 12.5px;
-    }
-    
+   }
 }
