@@ -123,8 +123,7 @@ width: 868px;
 
 
 .Features-container{
-    border: 2px solid black;
-    min-height: 700px;
+    min-height: 500px;
     margin-bottom: 80px;
     display: flex;
     align-items: center;
@@ -137,7 +136,7 @@ width: 868px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     gap: 15px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 
 }
 .Features-grid img{
@@ -145,10 +144,10 @@ width: 868px;
 }
 
 .features-info{
-    border: 1px solid rgb(5, 157, 53);
+    /* border: 1px solid rgb(5, 157, 53); */
 
     width: 50%;
-    padding: 60px;
+    padding: 5%;
 }
 .features-info h2{
     color:  #727272;
@@ -212,7 +211,21 @@ line-height: 26px;
 
 
 
+@media screen and (max-width:960px) {
 
+    .features-info h2{
+    font-size: 40px;
+    }
+    .features-info p{
+        
+    font-size: 15px;
+    line-height: 20px; 
+    }
+
+
+
+
+}
 
 
 
@@ -269,7 +282,40 @@ line-height: 26px;
     
 }
 
+@media screen and (max-width:850px) {
 
+
+.Features-container{
+    flex-direction: column;
+    min-width: 300px;
+
+}
+.features-info{
+    width: 100%;
+    text-align: center;
+    
+
+}
+.Features-grid{
+    width: 100%;
+    grid-template-columns: repeat(4,1fr);
+    gap: 8px;
+    order: 2;
+}
+.Features-grid img{
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+}
 @media screen and (max-width:700px) {
 
     .hero h2{
@@ -328,6 +374,24 @@ line-height: 26px;
         font-size: 15px;
     }
 
+
+
+    .Features-container{
+        margin: 40px 0 40px 0;
+      padding: 0;
+      max-height: 380px;
+      min-height: 380px;
+    
+    }
+.features-info p{
+    font-size: 10px;
+    line-height: 16px;
+
+}
+.features-info h2{
+    font-size: 30px;
+
+}
 
 
 
