@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;400;500;600;700;800;900&display=swap');
+
+
+/* font-family: 'Work Sans', sans-serif; */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.max{
+    max-width: 1440px;
+    margin: auto;
+    
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.btn-pry{
+    color: #FFF;
+text-align: center;
+font-size: 20px;
+font-weight: 600;
+border-radius: 8px;
+background: #FF900E;
+padding: 21px 24px;
+border: none;
+}
+
+
+
+.big-cont{
+    width: 100%;
+    display: block;
+   
+    background: rgba(255, 144, 14, 0.10);
+}
+header{
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    
+}
+.logo{
+    width: 60%;
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+nav{
+    width: 40%;
+    height: 100%;
+
+}
+
+header nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+
+}
+header nav ul a{
+    padding: 15px 16px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 500;
+    color: #424242;
+
+}
+
+
+
+
+
+.hero{
+    padding: 0 20px  0px 20px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.hero *{
+   
+    text-align: center;
+    margin-bottom: 30px;
+
+}
+.hero h2{
+    color:  #131313;
+font-size: 64px;
+font-weight: 700;
+}
+.hero p{
+    color: #727272;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px; 
+width: 868px;
+}
+
+.hero img{
+    width: 100%;
+    object-fit:cover;
+    margin-bottom: 80px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:1200px) {
+    header nav ul a{
+        
+        font-size: 16px;
+        
+    
+    }
+    header{
+        
+        height: 80px;
+    }
+    .logo{
+        width: 50%;
+        font-size: 35px;
+    }
+    nav{
+        width: 50%;
+    
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+    
+    header{
+        text-align: center;
+        min-height: 130px;
+        flex-direction: column;
+        padding:20px 20px 0;
+        
+    }
+
+    .logo{
+        width: 100%;
+        font-size: 30px;
+        height: 60%;
+       
+    }
+    nav{
+        width: 100%;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.648);
+        height: 40%;
+        padding-bottom: 20px;
+    
+    }
+
+
+
+    .hero h2{
+        font-size: 50px;
+    }
+    .hero p{
+        color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px; 
+    width: 80vw;
+    }
+    .hero *{
+        margin-bottom:20px ;
+    }
+    .btn-pry{
+        padding: 17px 20px;
+    }
+    
+    .hero img{
+        
+        margin-bottom: 40px;
+    }
+    
+}
+
+
+@media screen and (max-width:700px) {
+
+    .hero h2{
+        font-size: 40px;
+    }
+    .hero p{
+        
+    font-size: 14px;
+    }
+   
+    .btn-pry{
+        padding: 15px 18px;
+        font-size: 15px;
+    }
+
+
+
+
+
+
+
+}
+
+@media screen and (max-width:480px) {
+    
+    header{
+        min-height: 100px;
+    }
+
+    .logo{
+        font-size: 22px;
+    }
+    nav{
+        padding-bottom: 15px;
+
+    }
+    header nav ul a{
+        font-size: 14px;
+    }
+
+
+
+
+    .hero h2{
+        font-size: 30px;
+    }
+    .hero p{
+        
+    font-size: 10px;
+    line-height: 16px;
+    }
+   
+    .btn-pry{
+        padding: 10px 12px;
+        font-size: 15px;
+    }
+
+
+
+
+    
+}
+@media screen and (max-width:380px) {
+    
+    
+    header nav ul a{
+        font-size: 12.5px;
+    }
+    
+}
