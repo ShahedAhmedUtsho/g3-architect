@@ -168,6 +168,7 @@ header nav ul a{
     z-index: 80;
     height: 90%;
     object-fit: cover;
+    border-radius: 16px;
 }
 .card-info h2{
     padding: 0 0 0 30px;
